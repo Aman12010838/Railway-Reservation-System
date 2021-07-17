@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Railway Reservation System</title>
+    <link rel="stylesheet" href="front.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h3 style="text-align: center;background:coral;font-size: 30px;padding-bottom: 5px;">Railway Reservation System</h3>
+        <div class="navbar">
+            <img class="logo" src="logo.jpg">
+            <ul>
+                <li><a class="active" href="front.html" >Home</a></li>
+                <li><a href="pnr_enquiry.html">PNR Enquiry</a></li>
+                <li><a href="meals.html">Meals</a></li>
+                <li><a href="Holiday_Packages.html">Holiday Packages</a></li>
+                <li><a href="serrvicewithnav.html">Services</a></li>
+                <li><a href="contactuswithnav.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="centre">
+            <h1>INDIAN RAILWAYS</h1>
+            <h2>Safety | Security | Punctuality</h2>
+        </div>
+        <div class="form">
+            <div class="h3">
+                <h3><b>Book Your Tickets Here</b></h3>
+            </div>
+
+            <form>
+                <fieldset class="field">
+
+                    <div class="input_form">
+                        <table>
+
+                            <tr>
+                                <td><Label><b>From</b></Label></td>
+                                <td><input type="text" placeholder="Enter STN code"></td>
+                            </tr>
+                            <tr>
+                                <td><label><b>To</b></label></td>
+                                <td><input type="text" placeholder="Enter STN code"></td>
+                            </tr>
+                            <tr>
+                                <td><label><b>Date</b></label></td>
+                                <td><input type="date"></td>
+                            </tr>
+                            <tr>
+                                <td><label><b>Class</b></label></td>
+                                <td><select>
+                                        <option>Sleeper</option>
+                                        <option>1 AC</option>
+                                        <option>2 AC</option>
+                                        <option>3 AC</option>
+                                        <option>Business </option>
+                                    </select></td>
+                            </tr>
+
+                            <tr>
+                                <td><label><b>Quota</b></label></td>
+                                <td><select>
+                                        <option>General</option>
+                                        <option>Premium Tatkal</option>
+                                        <option>Senior Citizen</option>
+                                        <option>Ladies</option>
+                                        <option>Parliament House</option>
+                                    </select></td>
+                            </tr>
+
+
+                        </table>
+                    </div>
+                    <div class="button">
+
+                        <button class="button1" type="submit">Find Trains</button>
+                        <button class="button2" type="reset">Reset</button>
+
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Railway Reservation System</title>
+    <link rel="stylesheet" href="front.css">
+</head>
+<style>
+    /* @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap'); */
+    @import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@700&display=swap');
+    .images {
+        height: 330px;
+        width: 100%;
+        background-size: cover;
+
+    }
+
+    /* .food {
+        background-color: blanchedalmond;
+    } */
+
+    .input {
+        width: 10%;
+        padding: 0.5rem;
+        border-radius: 25px;
+        font-size: 1.1rem;
+    }
+
+    .catering {
+        position: absolute;
+        top: 25%;
+        left: 30%;
+    }
+
+    .head1 {
+        padding: 5px;
+        /* background-color: black; */
+        text-align: center;
+        margin-left: -30%;
+        border-radius: 20px;
+        font-size: 55px;
+        color: white;
+        font-family: 'Charmonman', cursive;
+    }
+
+    .head2 {
+        padding: 5px;
+        margin-top: 1%;
+        /* background-color: white; */
+        margin-left: -30%;
+        border-radius: 20px;
+        text-align: center;
+        font-size: 40px;
+        color: white;
+        font-family: 'Charmonman', cursive;
+    }
+
+    .form-group {
+        width: 90%;
+        padding: 0.5rem;
+        border-radius: 9px;
+        font-size: 1.1rem;
+    }
+
+    /* .btn {
+        margin: 5px;
+        padding: 5px 10px;
+        border-radius: 25px;
+        font-size: 17px;
+        margin-left: 50%;
+        background-color: greenyellow;
+        justify-content: center;
+    } */
+</style>
+
+<body>
+    <div>
+        <h3 style="text-align: center;background:coral;font-size: 30px;padding-bottom: 5px;">Railway Reservation System</h3>
+        <div class="navbar">
+            <img class="logo" src="logo.jpg">
+            <ul>
+                <li><a href="front.html">Home</a></li>
+                <li><a href="pnr_enquiry.html">PNR Enquiry</a></li>
+                <li><a href="meals.html">Meals</a></li>
+                <li><a class="active" href="Holiday_Packages.html" >Holiday Packages</a></li>
+                <li><a href="serrvicewithnav.html">Services</a></li>
+                <li><a href="contactuswithnav.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div>
+            <img class="images" src="mike-erskine-S_VbdMTsdiA-unsplash.jpg">
+            <div class="catering">
+                <h1 class="head1">Holiday Trip</h1>
+                <h2 class="head2">Wherever You Go , Go With All Your Heart ....</h2>
+            </div>
+        </div>
+        <div>
+            <table style=" width: 100%;height: 30em; text-align: center;margin: 0;padding: 0;">
+                <tr style="background-color: lightgreen; width: 200px; height: 60px; margin: none;font-size: 25px;">
+                    <th style="border-radius: 15px;font-family:Verdana, Geneva, Tahoma, sans-serif;">Place&nbspTo&nbspVisit </th>
+                    <th style="border-radius: 15px;font-family:Verdana, Geneva, Tahoma, sans-serif;">City</th>
+                    <th style="border-radius: 15px;font-family:Verdana, Geneva, Tahoma, sans-serif;">From</th>
+                    <th style="border-radius: 15px;font-family:Verdana, Geneva, Tahoma, sans-serif;">To</th>
+                    <th style="border-radius: 15px;font-family:Verdana, Geneva, Tahoma, sans-serif;">Duration</th>
+                    <th style="border-radius: 15px;font-family:Verdana, Geneva, Tahoma, sans-serif;">Booking&nbspStatus</th>
+                </tr>
+                <tr style="background-color: snow;">
+                    <td style="padding-bottom: 20px; padding-top: 20px; border-radius: 15px;"><img src="goa.jpg"
+                            height="200px" width="300px" alt=""> </td>
+                    <td style="font-size: 25px; border-radius: 15px;"> <b>Goa</b></td>
+                    <td style="font-size: 25px; border-radius: 15px;"><b>Raipur</b></td>
+                    <td style="font-size: 25px; border-radius: 15px;"><b>Goa</b></td>
+                    <td style="font-size: 25px; border-radius: 15px;"><b>3 Night/2 Days</b></td>
+                    <td  style="font-size: 25px; border-radius: 15px;"><a href="#"
+                        style="border-radius: 15px;background-color: greenyellow;padding: 5px;text-decoration: none;color: black;"><b>Book Now</b></a>
+                </td>
+                </tr>
+                <tr style="background-color:azure">
+                    <td style="padding-bottom: 20px; padding-top: 20px; border-radius: 15px; border-radius: 15px; "><img
+                            src="delhi.jpg" height="200px" width="300px" alt=""></td>
+                    <td style="font-size: 25px; border-radius: 15px; "><b>Delhi</b></td>
+                    <td style="font-size: 25px; border-radius: 15px; "><b>Raipur</b></td>
+                    <td style="font-size: 25px; border-radius: 15px; "><b>New Delhi</b></td>
+                    <td style="font-size: 25px; border-radius: 15px; "><b>2 Night/1 Days</b></td>
+                    <td  style="font-size: 25px; border-radius: 15px;"><a href="#"
+                        style="border-radius: 15px;background-color: greenyellow;padding: 5px;text-decoration: none;color: black;"><b>Book Now</b></a>
+                </td>
+
+                </tr>
+                <tr style="background-color:snow ">
+                    <td style="padding-bottom: 20px; padding-top: 20px; border-radius: 15px; border-radius: 15px;"><img
+                            src="jaipur.jpg" height="200px" width="300px" alt=""></td>
+                    <td style="font-size: 25px; border-radius: 15px; "><b>Jaipur</b></td>
+                    <td style="font-size: 25px; border-radius: 15px; "><b>Raipur</b></td>
+                    <td style="font-size: 25px; font-style: inherit; border-radius: 15px; "><b>Jaipur</b></td>
+                    <td style="font-size: 25px; font-style: inherit; border-radius: 15px; "><b>3 Night/2 Days</b></td>
+                    <td  style="font-size: 25px; border-radius: 15px;"><a href="#"
+                        style="border-radius: 15px;background-color: greenyellow;padding: 5px;text-decoration: none;color: black;"><b>Book Now</b></a>
+                </td>
+
+                </tr>
+                <tr style="background-color: azure">
+                    <td style="padding-bottom: 20px; padding-top: 20px; border-radius: 15px;"><img src="manali.jpg"
+                            height="200px" width="300px" alt=""></td>
+                    <td style="font-size: 25px; border-radius: 15px; "><b>Manali</b></td>
+                    <td style="font-size: 25px; border-radius: 15px; "><b>Raipur</b></td>
+                    <td style="font-size: 25px; font-style: inherit; border-radius: 15px; "><b>Manali</b></td>
+                    <td style="font-size: 25px; font-style: inherit; border-radius: 15px; "><b>3 Night/2 Days</b></td>
+                    <td  style="font-size: 25px; border-radius: 15px;"><a href="#"
+                        style="border-radius: 15px;background-color: greenyellow;padding: 5px;text-decoration: none;color: black;"><b>Book Now</b></a>
+                </td>
+
+                </tr>
+                <tr style="background-color:snow">
+                    <td style="padding-bottom: 20px; padding-top: 20px; border-radius: 15px;"><img src="mumbai.jpg"
+                            height="200px" width="300px" alt=""></td>
+                    <td style="font-size: 25px; border-radius: 15px; "><b>Mumbai</b></td>
+                    <td style="font-size: 25px; border-radius: 15px; "><b>Raipur</b></td>
+                    <td style="font-size: 25px; font-style: inherit; border-radius: 15px; "><b>Mumbai</b></td>
+                    <td style="font-size: 25px; font-style: inherit; border-radius: 15px; "><b>5 Night/4 Days</b></td>
+                    <td  style="font-size: 25px; border-radius: 15px;"><a href="#"
+                        style="border-radius: 15px;background-color: greenyellow;padding: 5px;text-decoration: none;color: black;"><b>Book Now</b></a>
+                </td>
+
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
+
+</html>
